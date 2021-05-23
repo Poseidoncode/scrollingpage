@@ -1,0 +1,122 @@
+$color_orange: #BEA67F
+
+*
+  font-family: 'Work Sans', sans-serif, Microsoft JhengHei
+  // border: solid 1px #666
+  // debug
+  // header
+  //   display: none
+  // section
+  //   display: none
+  // section#section_future
+  //   display: block
+    
+body
+  height: 1000px
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
+  font-weight: bold 
+
+nav.navbar
+  transition: 0.5s
+  
+nav.navbar.navbar-expand-lg.fixed-top.navbar-top.border-bottom
+  .container
+    a
+      color: #777
+      transition: 0.5s
+      &:hover
+        color: $color_orange
+  
+header.jumbotron
+  text-align: center
+  background-image: url(https://images.unsplash.com/photo-1510267222691-b90c3f0494d6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  .container
+    color: #fff
+    padding: 200px 0
+    h1
+      text-shadow: -1px 0 #6a4414, 0 1px #6a4414, 1px 0 #6a4414, 0 -1px #6a4414
+
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+  h4
+    color: rgba(white,0.5)
+    font-weight: nomal
+
+section
+  padding: 50px 0px
+    
+    
+section#section_ask
+  background-color: $color_orange
+  .col-sm-5.img
+    background-image: url(https://images.unsplash.com/photo-1578911373434-0cb395d2cbfb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80)
+    height: 350px
+    mix-blend-mode: multiply
+  h2
+    margin-top: 130px
+    padding: 0px 20px
+    color: #1a1a1cd9
+
+section#section_about
+  img
+    width: 100%
+  .img_wrap
+    margin-bottom:5px
+    height: 193px
+    overflow: hidden
+
+section#section_story
+  background-color: #222
+  color: white
+  padding: 0
+  .col-sm-5
+    background-image:     url(https://upload.wikimedia.org/wikipedia/commons/a/a2/Canada_labelled_map.svg)
+    background-size: 100% auto
+    height: 400px
+    .cross
+      position: absolute
+      left: 23%
+      top: 30%
+      color: red
+      font-size:30px
+      font-weight: bold
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+  .col-sm-12.features
+    margin-top: 30px
+    margin-bottom: 30px
+section#section_future
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .col-sm-6.feature
+    padding-top:10px
+    padding-bottom: 10px
+footer.jumbotron
+  text-align: center
+  background-image: url(https://images.unsplash.com/photo-1529060532150-a0c935a6d6e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80)
+  background-size: cover
+  background-attachment: fixed
+  margin-bottom: 0px
+  input
+    background-color: transparent
+    max-width: 300px
+    margin: 0 auto
+    text-align: center
+  .container
+    color: #fff
+    padding: 60px 0
+  hr
+    max-width: 50px
+    border: solid 2px $color_orange
+  button.btn.btn-default
+    color: #fff
+
