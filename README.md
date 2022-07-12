@@ -1,12 +1,7 @@
-# 
-- GitHub Pages
-
-  https://poseidoncode.github.io/scrollingpage/
-
 # [切版+RWD] 酒莊首頁實作
-> 此為手刻版酒莊首頁
+> 此為酒莊視差滾動首頁
 
-![winery]([https://i.imgur.com/oiic2ho.jpg "winery")
+![Imgur](https://i.imgur.com/oiic2ho.jpg)
 
 - 說明
 
