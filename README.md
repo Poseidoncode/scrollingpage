@@ -1,4 +1,4 @@
-# 酒莊首頁實作
+# 酒莊Landing Page實作
 > 此為酒莊視差滾動首頁
 
 ![Imgur](https://i.imgur.com/oiic2ho.jpg)
